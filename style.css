@@ -6,14 +6,36 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 #pic1 {
   width: 400px;
   height: auto;
 }
-.toc a {
+.title {
+  text-align: center;
+}
+.toc {
+  width: 70%;
+}
+p {
+  text-indent: 30px;
+}
+a {
   text-decoration: none;
   font-weight: bold;
+  color: black;
+}
+a:hover {
+  color: grey;
+}
+.links {
+  padding: 10px;
+}
+#social,
+#introduction,
+#revised {
+  margin-top: 5px;
+  margin-bottom: 40px;
 }
